@@ -12,7 +12,7 @@ class Drive_OCR:
         self.SCOPES = ['https://www.googleapis.com/auth/drive']
 
         # TODO: add the json key file received from google cloud project
-        self.credentials = r"D:\harel\הראל\עבודה\פרויקטים\weedex\harelproj-47493ecd8ae9.json"
+        self.credentials = r""
         os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = self.credentials
 
         # If you have drive account you can add folder id
